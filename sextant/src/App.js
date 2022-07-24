@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './card.js'
 
+//this returns the html to be rendered to the index.html file
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App App-header">
+      <h1 class="Heading-banner">Sextant</h1>
+      <div class="Cards-container">
+        <Card heading="Card Title"/>
+        <Card heading="Card Title"/>
+      </div>
     </div>
   );
 }

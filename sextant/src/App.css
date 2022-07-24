@@ -1,16 +1,24 @@
+/* generic stylings */
+
+/* Class stylings */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Heading-banner{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Cards-container {
+  width : 35%;
+  min-height: 75vh;
+  background-color: #30475E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  padding-top: 20px;
 }
 
 .App-header {
@@ -19,13 +27,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Id stylings */
+
+/* Other */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {

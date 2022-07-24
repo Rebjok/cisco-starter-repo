@@ -1,0 +1,22 @@
+/* generic stylings */
+
+/* class stylings */
+.card-container {
+  background-color: #395B64;
+  width: 75%;
+  height: 100px;
+  overflow: hidden;
+  align-content: center;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  min-width: 75%;
+  border-radius: 15px;
+}
+
+.heading-container {
+  padding-top: 3px;
+}
+
+/* Id stylings */
+
+/* Other */
