@@ -1,11 +1,12 @@
 import './App.css';
 import Card from './card.js'
+import Banner from './banner.js'
 
 //this returns the html to be rendered to the index.html file
 function App() {
   return (
     <div class="App App-header">
-      <h1 class="Heading-banner">Sextant</h1>
+      <Banner heading="Sextant"/>
       <div class="Cards-container">
         <Card heading="Card Title"/>
         <Card heading="Card Title"/>
