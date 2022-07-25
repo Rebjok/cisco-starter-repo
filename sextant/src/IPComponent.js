@@ -6,12 +6,13 @@ class IPComponent extends Component {
     super(props);
     this.state = {
       ipObject : {ip:"IP not fetched"},
+      url: props.url,
     };
 
   }
 
   componentDidMount() {
-    fetch('https://api64.ipify.org?format=json', {method: "GET"})
+    fetch(this.state.url)
       .then((response) => response.json())
       .then((data) => {
         this.setState({
